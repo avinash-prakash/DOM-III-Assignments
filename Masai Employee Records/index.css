@@ -1,0 +1,121 @@
+/* Form styling */
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 30%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  label {
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #2b619e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3973b6;
+  }
+  
+  /* Table styling */
+  table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0468aa;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Role-specific styling */
+  table td.role-senior {
+    background-color: #FF0000; /* Red for Senior */
+    color: white;
+  }
+  
+  table td.role-junior {
+    background-color: #00FF00; /* Green for Junior */
+    color: white;
+  }
+  
+  table td.role-fresher {
+    background-color: #0000FF; /* Blue for Fresher */
+    color: white;
+  }
+  
+  /* Delete button styling */
+  table td.delete-button button {
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  table td.delete-button button:hover {
+    background-color: darkred;
+  }
+  
+  #parent{
+    display: flex;
+    margin: auto;
+  }
+   
+  h1{
+    text-align: center;
+    color: rgb(41,97,158);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";   
+  }
+
+  form select{
+    width: 85%;
+  }
